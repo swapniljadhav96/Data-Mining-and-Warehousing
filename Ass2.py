@@ -2,9 +2,18 @@
 """
 Created on Thu Mar  7 08:29:10 2024
 
-@author: Sanket Tambe
+@author: Dell
 """
 
+'''
+Data Discretization and Data Normalization. Use any suitable dataset (e.g. heart dataset https://www.kaggle.com/zhaoyingzhu/heart.csv ). Perform following operations on given dataset suitable programming language.
+a) Find standard deviation, variance of every numerical attribute.
+b) Find covariance and perform Correlation analysis using Correlation coefficient.
+c) How many independent features are present in the given dataset?
+d) Can we identify unwanted features?
+e) Perform the data discretization using equi frequency binning method on age attribute
+f) Normalize RestBP, chol, and MaxHR attributes (considering above dataset) using min-max normalization, Z-score normalization, and decimal scaling normalization.
+'''
 
 import pandas as pd
 import numpy as np
